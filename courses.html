@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Courses</title>
+    <style>
+        p{
+        text-align: center;
+        font-size : 20px;
+        font-family : 'Courier New', 'Courier', 'monospace';
+        font-weight : normal;}
+
+        ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #F0F0F0;}
+
+        li {
+        float: left;}
+
+        li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none; }
+
+        li a:hover {
+        background-color: #C0C0C0;}
+</style>
+    <link rel="stylesheet" href="styleCourses.css">
+    <link href="bootstrap.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <ul>
+        <li><a href="main.html">Home</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+
+    <div class="Container">
+        <div class="Search-bar">
+            <input type="text" id="Search" placeholder="Search for courses" style="margin-bottom: 10px; margin-top: 20px;
+            margin-left: 40px;">
+
+            <div class="Categories" id="courses">
+                <p style="margin-top: 40px; margin-right: 150px;">Categories</p>
+                <ul class="ul">
+                    <input class="button" type="button" value="All">
+                </ul>
+                <ul class="ul">
+                    <input class="button" type="button" value="JS">
+                </ul>
+                <ul class="ul">
+                    <input class="button" type="button" value="HTML">
+                </ul>
+                <ul class="ul">
+                    <input class="button" type="button" value="CSS">
+                </ul>
+                <ul class="ul">
+                    <input class="button" type="button" value="PHP">
+                </ul>
+            </div>
+
+            <div>
+                <p style="margin-top: 40px; margin-right: 200px;">Price</p>
+                <input type="range" id="price" min="0" max="70" oninput="this.nextElementSibling.value = this.value" style="margin-left: 40px;">
+                <output>70</output> $
+            </div>
+
+        </div>
+
+        <div id="Section" class="menu-item"></div>
+    </div>
+
+
+
+    
+
+
+    <script src="courses.js"></script>
+</body>
+
+</html>

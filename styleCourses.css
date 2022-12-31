@@ -1,0 +1,67 @@
+    .menu-item {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    margin-right: 50px;
+    cursor: pointer;
+    }
+
+    .photo {
+        width: 350px;
+        height: 200px;
+    }
+
+    .Container {
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    }
+    
+    h3 {
+    text-align: center;
+    color: grey;
+    font-weight: lighter;
+    font-family:'Franklin Gothic Medium';
+    }
+
+    h4 {
+    text-align: center;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium';
+    }
+
+    .ul{
+        background-color: white;
+    }
+
+    .button {
+     border: none;
+     border-color: transparent;
+     background-color: white;
+     margin-left: 10px;
+     cursor: pointer;
+     color: black;
+    }    
+
+    .hiddenElement {
+        display: none;
+    }
+   
+    #imageCourse{
+        width: 350px;
+        height: 200px;
+        margin-bottom: 10px;
+    }
+
+    #textPrice{
+        text-align: center;
+        color: black;
+        font-weight: bold;
+        font-family:'Franklin Gothic Medium';
+    }
+
+    #textTitle{
+        text-align: center;
+        color: grey;
+        font-family:'Franklin Gothic Medium';
+
+    }
